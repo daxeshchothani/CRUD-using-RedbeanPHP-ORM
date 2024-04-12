@@ -18,4 +18,6 @@ if ($employee) {
     echo "<div class='alert alert-danger'>Employee not found.</div>";
 }
 ?>
-
+<?php
+include './components/footer.php';
+?>
